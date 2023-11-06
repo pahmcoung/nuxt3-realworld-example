@@ -1,0 +1,33 @@
+.footer {
+  background-color: $gray_F3;
+  width: 100%;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-brand {
+  line-height: 1.5;
+  color: $primary;
+  font-size: 1 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-description {
+  color: $gray_BBB;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.footer-content {
+  color: $gray_BBB;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+.footer-content.link {
+  color: $primary;
+  text-decoration: none;
+  margin-right: 8px;
+}
